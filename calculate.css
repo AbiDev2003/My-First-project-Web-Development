@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(179, 178, 178);
+    
+}
+@media screen and (max-width:375px) {
+    .html, body{
+        font-size: 10px;
+    }
+    
+}
+
+.button{
+    padding: 20px;
+    margin: 0 3px;
+    border: 2px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+    width: 66px;
+    background-color: rgb(68, 67, 67);
+    color: white;
+    font-size: 18px;
+}
+@media screen and (max-width: 375px) { /* Adjust breakpoint as needed */
+    .button {
+      font-size: 10px; /* Mobile screen font size */
+    }
+}
+
+.row{
+    margin: 8px 0;
+}
+
+.row input{
+    width: 368px;
+    font-size: 24px;
+    margin: 5px;
+    padding: 20px 0px;
+    border: 2px solid black;
+    border-radius: 6px;
+
+}
+
+/* ****************************************************** */
+.text-center{
+    text-align: center;
+    margin: 2px;
+    padding: 2px;
+}
+.mx-auto{
+    margin: auto;
+}
+
+.flex{
+    display: flex;
+
+}
+
+.flex-col{
+    flex-direction: column;
+
+}
+
+.item-center{
+    align-items: center;
+}
+#red{
+    background-color: red;
+}
+#secondColor{
+    background-color:darkgreen;
+
+}
+#thirdColor{
+    background-color: rgb(19, 19, 121);
+
+}
