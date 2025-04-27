@@ -46,10 +46,6 @@ function evaluate(expression) {
   // Handle exponential function
   expression = expression.replace(/(?<!\w)e(?!\w)/g, "Math.E");
 
- 
-
-
-
   // calculate log and ln 
   expression = expression.replace(/log\(([^)]+)\)/g, "Math.log10($1)");
   expression = expression.replace(/ln\(([^)]+)\)/g, "Math.log($1)");
